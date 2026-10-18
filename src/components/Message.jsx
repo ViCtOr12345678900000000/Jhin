@@ -20,7 +20,7 @@ export default function Message() {
 
         {/* RIGHT - THE MESSAGE */}
         <div className="w-full">
-          <h2 className="font-serif font-extralight text-[28px] md:text-[36px] lg:text-[44px] leading-[1.1] tracking-tight">
+          <h2 className="text-[#3D3C26] font-serif font-extralight text-[28px] md:text-[36px] lg:text-[44px] leading-[1.1] tracking-tight">
             I didn't start Jhinora to build <span className="italic text-[#e68eaf]">pretty brands.</span><br />
             I started it to build brands that <span className="bg-black text-white px-2 py-0.5">refuse to be ignored.</span>
           </h2>

@@ -1,6 +1,6 @@
 export default function Bottom() {
   return (
-    <section className="w-full h-[100svh] bg-white text-black flex flex-col justify-between px-6 md:px-10 lg:px-16 xl:px-20 py-8 md:py-12 overflow-hidden sticky bottom-0 z-0">
+    <section className="w-full h-[100vh] bg-white text-black flex flex-col justify-between px-6 md:px-10 lg:px-16 xl:px-20 py-8 md:py-12 overflow-hidden sticky bottom-0 z-0">
 
       {/* Top small nav */}
       <div className="w-full flex justify-between items-center text-[10px] tracking-[0.3em] uppercase opacity-40">
@@ -13,7 +13,7 @@ export default function Bottom() {
         <h1 className="font-serif font-extralight leading-[0.85] tracking-[-0.04em] text-[25vw] md:text-[14vw] lg:text-[12vw]">
           jhinora
           <br />
-          <span className="flex items-center gap-4 text-black/50">
+          <span className="flex items-center gap-4 text-[#3D3C26]">
             Studios<span className="text-[#e68eaf]">.</span>
           </span>
         </h1>

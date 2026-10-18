@@ -6,6 +6,8 @@ import FeaturedProjects from './FeaturedProjects'
 import Message from './Message'
 import StudioProjects from './StudioProjects'
 import Bottom from './Bottom'
+import DreamParis from './DreamParis'
+import ParisBridge from './ParisBridge'
 
 export default function Display() {
   const [img1, setImg1] = useState('')
@@ -69,6 +71,9 @@ export default function Display() {
           <MidBar />
           <FeaturedProjects />
         </section>
+
+        <DreamParis />
+        <ParisBridge/>
 
         <Message />
         <StudioProjects />
